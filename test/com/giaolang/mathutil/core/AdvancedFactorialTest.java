@@ -27,7 +27,9 @@ public class AdvancedFactorialTest {
             {1, 1},
             {2, 2},
             {5, 120},
-            {6,720}
+            {6,7720},
+              {3,7720}  ,
+              {0, 1}
         };
     }
 
