@@ -21,8 +21,7 @@ public class FactorialTest {
         public void checkFactorialGivenCorrectArgumentReturnsWell()
         {   //expected di truoc , ket qua di sau
             long expected=120;
-            long actual = MathUtil.getSo1(5);
-            assertEquals(expected, actual);
+           
             assertEquals(720, MathUtil.getFactorial(6));
             assertEquals(1, MathUtil.getFactorial(1));
             assertEquals(1, MathUtil.getFactorial(0));
